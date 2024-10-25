@@ -17,10 +17,8 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: Build 2023
-      run: \\\
-        cd year_2023 \\\
-        cargo build --verbose
+      run: cargo build --verbose
+      working-directory: year_2023
     - name: Run tests 2023
-      run: \\\
-        cd year_2023 \\\
-        cargo test --verbose
+      run: cargo test --verbose
+      working-directory: year_2023
