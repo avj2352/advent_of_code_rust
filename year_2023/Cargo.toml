@@ -8,3 +8,4 @@ edition = "2021"
 [dependencies]
 itertools = { version = "0.12.0"}
 nom = { version = "7.1.3" }
+thiserror = { version = "*"}
