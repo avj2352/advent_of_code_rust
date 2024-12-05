@@ -4,5 +4,7 @@
 
 # ignore files
 .DS_Store
+.idea/
+.vscode/
 **/.DS_Store
 **/*.lock
